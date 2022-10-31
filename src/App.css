@@ -1,0 +1,115 @@
+table,th,td,tr,thead,tbody{
+  border:3px solid black;
+  font-size: 16px;
+  margin: auto;
+  padding: 5px;
+}
+th{
+  background-color: aqua;
+}
+table{
+  width:100%;
+  border:none;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 1.0);
+}
+
+.Logoutbutton{
+  margin-right: 40px;
+  border: none;
+  position:absolute;
+  font-family: sans-serif;
+  float : right;
+  background: aqua;
+  border-radius: 10px;
+  padding: 15px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  top: 55px;
+  right: 10px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 1.0);
+}
+
+.Uploadbutton{
+  position: absolute;
+  top: 55px;;
+  left:155px;
+  font-family: sans-serif;
+  float : left;
+  background: aqua;
+  border-radius: 10px;
+  padding: 15px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 1.0);
+}
+
+.Backbutton{
+  position: absolute;
+  border: none;
+  top: 55px;;
+  left:50px;
+  font-family: sans-serif;
+  float : left;
+  background:aqua;
+  border-radius: 10px;
+  padding: 15px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 1.0);
+}
+
+.Body{
+  padding : 40px;
+  position: relative;
+  /* background: linear-gradient(purple, #9198e5); */
+  height: 2000px; 
+  color: black;
+}
+
+.Loginlink{
+  font-size: 30px;
+  color:black;
+  cursor: pointer;
+}
+
+.Folder{
+  cursor: pointer;
+}
+
+
+.Forminput{
+    border-radius: 0.25em;
+    border-style: solid;
+    width: 200px;
+    border-width: 5px;
+    border-color: black;
+    font-size: 1.5rem;
+    padding: 0.5em 4em 0.5em 2em;
+    
+}
+
+.Tokentext{
+
+  font-size: 30px; 
+   }
+
+.Submitbutton{
+  margin-top: 20px;
+  margin-left: 10px;
+  width:150px;
+  font-family: sans-serif;
+  background:aqua;
+  border-radius: 10px;
+  padding: 15px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 1.0);
+}
+
+   .App{
+  text-align: center;
+}
